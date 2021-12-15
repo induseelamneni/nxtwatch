@@ -1,0 +1,92 @@
+.login-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form-card {
+  background-color: #ffffffff;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-shadow: 5px 5px 10px 10px #f1f5f9;
+  align-items: center;
+  width: 25%;
+}
+
+.next-watch-logo {
+  width: 140px;
+  height: 60px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+.name-input {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #475569;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+.label {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
+.checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.submit-btn {
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  font-weight: 800;
+}
+.error-message {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: red;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .login-form-card {
+    width: 90%;
+  }
+  .next-watch-logo {
+    width: 100px;
+    height: 50px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .name-input {
+    font-size: 12px;
+  }
+}
