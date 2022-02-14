@@ -1,6 +1,16 @@
 .left-nav-bg {
   width: 200px;
   flex-shrink: 0;
+}
+@media screen and (max-width: 767px) {
+  .left-nav-bg {
+    display: none;
+  }
+}
+.nav-background-dark {
+  background-color: #0f0f0f;
+}
+.nav-background-light {
   background-color: #ffffffff;
 }
 .nav-content-left {
@@ -34,22 +44,30 @@
 .home-icon {
   width: 20px;
   height: 20px;
-  color: #475569;
+
   margin-right: 20px;
   margin-left: 20px;
+}
+
+.icon-dark {
+  color: #ffffff;
+}
+
+.icon-light {
+  color: #475569;
 }
 .contact-us {
   font-family: 'Roboto';
   font-size: 20px;
   font-weight: 500;
-  color: #475569;
+
   margin-left: 20px;
 }
 .contact-us1 {
   font-family: 'Roboto';
   font-size: 15px;
   font-weight: 500;
-  color: #475569;
+  line-height: 1.5;
   margin-left: 20px;
 }
 .social-icons-container {

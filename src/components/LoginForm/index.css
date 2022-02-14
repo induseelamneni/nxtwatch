@@ -6,15 +6,29 @@
   height: 100vh;
 }
 
-.login-form-card {
-  background-color: #ffffffff;
-  padding-top: 16px;
-  padding-bottom: 32px;
-  padding-left: 32px;
-  padding-right: 32px;
+.login-dark-bg {
+  background-color: #181818;
+}
+.login-light-bg {
+  background-color: #f9f9f9;
   box-shadow: 5px 5px 10px 10px #f1f5f9;
+}
+.login-card-dark-bg {
+  background-color: black;
+}
+
+.login-card-light-bg {
+  background-color: #ffffffff;
+}
+
+.login-form-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 64px;
+  padding-right: 64px;
+
   align-items: center;
-  width: 25%;
+  width: 35%;
 }
 
 .next-watch-logo {
@@ -33,21 +47,56 @@
 .name-input {
   font-size: 15px;
   font-family: 'Roboto';
-  color: #475569;
+  background-color: transparent;
   width: 100%;
   padding: 8px;
   margin-bottom: 12px;
 }
+.name-input-dark {
+  color: #ffffff;
+}
+.name-input-light {
+  color: #475569;
+}
+.name-label-light {
+  color: #ffffff;
+}
+.name-label-dark {
+  color: #475569;
+}
+.name-input-light {
+  border: 1px solid #475569;
+}
+.name-input-dark {
+  border: 1px solid #475569;
+}
 .label {
   font-size: 14px;
   font-family: 'Roboto';
-  color: #475569;
+
   font-weight: 600;
+}
+.label-dark {
+  color: #ffffff;
+}
+.label-light {
+  color: #475569;
 }
 .checkbox {
   width: 15px;
   height: 15px;
   margin-right: 10px;
+}
+.checkbox-label {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.checkbox-label-light {
+  color: #ffffff;
+}
+.checkbox-label-dark {
+  color: black;
 }
 .checkbox-container {
   display: flex;

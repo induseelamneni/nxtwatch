@@ -1,0 +1,34 @@
+.nxt-watch-premium-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png);
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+.logo {
+  width: 150px;
+  height: 50px;
+}
+.logo-cross-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.premium-plan-description {
+  color: #1e293b;
+  font-size: 22px;
+  font-weight: 450;
+  line-height: 2;
+}
+.get-it-button {
+  padding: 12px;
+  border: 1px solid black;
+  font-size: 18px;
+  background-color: transparent;
+  color: #1e293b;
+  font-weight: 400;
+}
